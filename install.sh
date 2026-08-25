@@ -4,7 +4,7 @@ source /etc/os-release
 case "$ID" in
   debian|ubuntu)
     sudo apt-get update
-    sudo apt-get install -y python3-brotli yt-dlp ffmpeg
+    sudo apt-get install -y python3-venv python3-brotli yt-dlp ffmpeg
     ;;
   arch)
     sudo pacman -Syu --noconfirm python-brotli yt-dlp ffmpeg
